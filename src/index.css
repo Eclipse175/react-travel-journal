@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#logo{
+  width: 36px;
+  height:28px;
+  transform : scale(3.2);
+  margin-top:40px;
+}
+#location{
+  width: 18px;
+  height:24px;
+  transform : scale(1.5);
+}
+.navbar{
+  background-color: #F55A5A;
+  height:115px;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.card{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  padding: 0 400px;
+}
+
+.sub-card{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left:30px;
+}
+.sub-sub-card{
+  display:flex;
+  width:450px;
+  height: 0px;
+  justify-content: flex-start;
+  align-items: center;
+}
+ p { 
+  font-weight:500;
+  font-size: 22px;
+  margin-left: 1rem;
+}
+a{
+  margin-left: 17px;
+  color : #918E9B;
+  font-size: 20px;
+}
+img{
+  border-radius: 12px;
+  object-fit:cover;
+  width:400px;
+  height:500px;
+}
+h1{
+  font-size: 56px;
+  margin-top:22px;
+  margin-bottom: 80px;
+}
+h4{
+  font-size:19px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+h5{
+  font-weight: 400;
+  font-size:22px;
+}
+h1, h4, h5{
+  color:#2B283A;
+  height: 0px;
+}
